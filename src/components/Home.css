@@ -1,0 +1,71 @@
+.homePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: #F8F9FC;
+}
+
+.postContainer {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 500px;
+    gap: 10px;
+    padding: 0px 40px;
+    box-shadow: 8px 5px 9px 0px #777777;
+}
+
+.postContainer h1 {
+    margin: 0;
+}
+
+.postContainer input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    padding: 0px 4px;
+}
+
+.postContainer textarea {
+    width: 100%;
+    height: 120px;
+    outline: none;
+}
+
+.postButton {
+    padding: 10px 0;
+    background-color: skyblue;
+    border: none;
+    box-shadow: 5px 9px 15px -5px #777777;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.postButton:hover {
+
+    background-color: rgb(0, 119, 255);
+    box-shadow: 5px 9px 15px -5px #777777;
+}
+
+.responseTextWrapper {
+    position: relative;
+
+}
+
+.loading-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    /* 背景を半透明にする */
+}
